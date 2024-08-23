@@ -126,7 +126,6 @@ li {
             margin-top: 10px;
             font-size: 14px;
             font-weight: 600;
-            letter-spacing: 1px;
             vertical-align: top;
         }
     }
@@ -267,6 +266,7 @@ li {
         color: #374553;
         font-size: 14px;
         font-weight: 400;
+        word-break: break-all;
     }
 }
 
@@ -348,5 +348,100 @@ li {
                 }
             }
         }
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .header__inner {
+        height: 60px;
+        padding: 0 20px;
+    }
+    .header.active .header__inner {
+        height: 40px;
+    }
+    .gnb ul li a {
+        padding: 0 10px;
+    }
+    .content {
+        padding: 80px 20px 40px;
+    }
+    .kv__title p {
+        font-size: 28px;
+    }
+    .kv__intro h2 {
+        margin-top: 30px;
+        font-size: 18px;
+    }
+    .kv__intro h3 {
+        font-size: 16px;
+    }
+
+    .project {
+        margin-top: 50px;
+    }
+    .project ul {
+        grid-template-columns: repeat(1, auto);
+        column-gap: 0;
+        row-gap: 40px;
+    }
+    .project__title h3 {
+        font-size: 18px;
+    }
+    .project__title p {
+        font-size: 14px;
+    }
+
+    .project-view__figure {
+        margin-top: 35px;
+    }
+    .project-view__detail {
+        margin-top: 30px;
+    }
+
+    .footer__inner {
+        padding: 0 20px;
+    }
+
+    .intro-view__main {
+        flex-direction: column;
+        row-gap: 30px;
+        margin-bottom: 40px;
+        padding: 20px 0 40px;
+    }
+    .intro-view__intro {
+        padding-left: 0;
+    }
+
+    .intro-view__intro h2 {
+        font-size: 24px;
+    }
+
+    .intro-view__intro p {
+        font-size: 16px;
+    }
+
+    .intro-view__history {
+        flex-direction: column;
+    }
+
+    .intro-view__subject {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .intro-view__work {
+        padding-left: 0;
+    }
+
+    .intro-view__work ul li {
+        margin-top: 30px;
+    }
+
+    .intro-view__work ul li p {
+        font-size: 14px;
+    }
+
+    .intro-view__history + .intro-view__history {
+        margin-top: 60px;
     }
 }

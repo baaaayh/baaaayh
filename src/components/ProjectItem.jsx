@@ -7,7 +7,7 @@ export default function ProjectItem({ info }) {
             <Link to={`/project/${info.id}`}>
                 <figure className="project__figure">
                     <img
-                        src={`/src/assets/images/projects/${info.img}`}
+                        src={`/images/projects/${info.img}`}
                         alt={info.title}
                     />
                 </figure>

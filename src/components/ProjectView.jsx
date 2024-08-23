@@ -16,7 +16,7 @@ export default function ProjectView({ ...props }) {
                 </div>
                 <figure className="project-view__figure">
                     <img
-                        src={`/src/assets/images/projects/${info.img}`}
+                        src={`/images/projects/${info.img}`}
                         alt={info.title}
                     />
                 </figure>

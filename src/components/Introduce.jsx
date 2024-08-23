@@ -3,7 +3,7 @@ export default function Intro() {
         <div className="intro-view">
             <div className="intro-view__main">
                 <figure className="intro-view__figure">
-                    <img src="/src/assets/images/common/kimjh.jpg" alt="" />
+                    <img src="/images/common/kimjh.jpg" alt="Kim Joo Hyung" />
                 </figure>
                 <div className="intro-view__intro">
                     <h2>

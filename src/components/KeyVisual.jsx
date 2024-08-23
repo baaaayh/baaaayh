@@ -3,7 +3,10 @@ export default function KeyVisual() {
         <div className="kv">
             <div className="kv__title">
                 <div className="kv__wrap">
-                    <p>WEB PUBLISHER. KIM JOO HYUNG</p>
+                    <p>
+                        WEB PUBLISHER. <br />
+                        KIM JOO HYUNG
+                    </p>
                     <h2>
                         [ 'HTML' , 'CSS' , 'JS' , 'SCSS' , 'React' ,' Vue' ,'
                         SVN' ,' Git' ,' Figma' , 'PhotoShop' ,' Illustrator' ]
