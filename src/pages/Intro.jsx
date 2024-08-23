@@ -1,3 +1,10 @@
+import Layout from "./Layout";
+import Introduce from "../components/Introduce";
+
 export default function Intro() {
-    return <div></div>;
+    return (
+        <Layout>
+            <Introduce />
+        </Layout>
+    );
 }

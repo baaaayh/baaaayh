@@ -1,9 +1,9 @@
-import { Route, Routes } from 'react-router-dom';
-import Main from './pages/Main';
-import Project from './pages/Project';
-import Introduce from './pages/Intro';
-import SideProject from './pages/SideProject';
-import './assets/scss/App.scss';
+import { Route, Routes } from "react-router-dom";
+import Main from "./pages/Main";
+import Project from "./pages/Project";
+import Introduce from "./pages/Intro";
+import SideProject from "./pages/SideProject";
+import "./assets/scss/App.scss";
 
 export default function App() {
     return (

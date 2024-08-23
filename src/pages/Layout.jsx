@@ -1,5 +1,6 @@
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import PropTypes from "prop-types";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 export default function Layout({ children }) {
     return (
@@ -12,3 +13,7 @@ export default function Layout({ children }) {
         </div>
     );
 }
+
+Layout.propTypes = {
+    children: PropTypes.element,
+};

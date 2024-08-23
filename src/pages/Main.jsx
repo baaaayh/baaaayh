@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react';
-import Layout from './Layout';
-import KeyVisual from '../components/KeyVisual';
-import ProjectList from '../components/ProjectList';
-import projectData from '../project.json';
+import { useEffect, useState } from "react";
+import Layout from "./Layout";
+import KeyVisual from "../components/KeyVisual";
+import ProjectList from "../components/ProjectList";
+import projectData from "../project.json";
 
 export default function Main() {
     const [data, setData] = useState(projectData);
@@ -13,8 +13,10 @@ export default function Main() {
 
     return (
         <Layout>
-            {/* <KeyVisual /> */}
-            <ProjectList projects={data} />
+            <>
+                <KeyVisual />
+                <ProjectList projects={data} />
+            </>
         </Layout>
     );
 }
