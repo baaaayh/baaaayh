@@ -30,12 +30,18 @@ export default function ProjectView({ ...props }) {
                         </li>
                         <li>
                             <div className="project-view__tit">URL</div>
-                            <div className="project-view__desc">{info.url}</div>
+                            <div className="project-view__desc">
+                                <a href={info.url} target="_blank">
+                                    {info.url}
+                                </a>
+                            </div>
                         </li>
                         <li>
                             <div className="project-view__tit">URL2</div>
                             <div className="project-view__desc">
-                                {info.url2}
+                                <a href={info.url2} target="_blank">
+                                    {info.url2}
+                                </a>
                             </div>
                         </li>
                         <li>
